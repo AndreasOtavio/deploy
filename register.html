@@ -1,0 +1,59 @@
+
+
+<html>
+    <head> 
+        <title>Earthfund - Register</title>
+        <!-- Stylesheet -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,600italic,700,700italic" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="assets/css/loginstyle.css" type="text/css">
+    </head>
+    <body>
+        <div>
+            <section>
+                <img src="images/parallax/earthfund-logo.png" class="logo-login"alt="">
+                <form>
+                    <h3>Registre-se</h3>
+                    <input id="email" type="text" name="email" placeholder="Seu E-mail">
+                    <input id= "password" type="password" name="password" placeholder="Cria sua senha">
+                    <h3>Gênero</h3>
+                    <section class="sex-field">
+                        <input type="radio" name="styles" id="box-shadow" class="custom-radio">
+                        <label for="box-shadow">Masculino</label>
+                        <input type="radio" name="styles" id="box-shadow" class="custom-radio">
+                        <label for="box-shadow">Feminino</label>
+                        <input type="radio" name="styles" id="box-shadow" class="custom-radio">
+                        <label for="box-shadow">Outros</label>
+                    </section>
+                    <label for="data_nascimento"><h3>Data de Nascimento</h3></label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+
+                    <input type="submit" name="action" value="Registrar-se!">
+                    
+                </form>
+            </section>
+        </div>
+
+
+        <script>
+            var email = document.getElementById('email');
+            var password = document.getElementById('password');
+
+            email.addEventListener('focus',()=>{
+                email.style.borderColor = "#398378";
+            });
+            email.addEventListener('blur',()=>{
+                email.style.borderColor = "ccc";
+            });
+
+            password.addEventListener('focus',()=>{
+                password.style.borderColor = "#398378";
+            });
+            password.addEventListener('blur',()=>{
+                password.style.borderColor = "ccc";
+            });
+
+        </script>
+    </body>
+
+</html>

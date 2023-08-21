@@ -1,0 +1,91 @@
+<div class="container">
+
+    <!-- Header -->
+    <div class="row">
+        <div class="col-md-12">
+            <header class="text-center offsetBottom">
+                <div class="icon close"><i class="fa fa-times"></i></div>
+                <h2 class="text-semibold" id="share-title">Project Style One</h2>
+            </header>
+        </div>
+    </div>
+	
+    <!-- Short description -->
+    <div class="row">
+        <div class="col-md-12 offsetBottom">
+            <p class="text-center">
+            	You can have unlimited projects each with a different layout!<br>
+				We included 5 styles &ndash; project with static images, image slider, video project and etc.
+            </p>
+        </div>
+    </div>
+	
+    <!-- Images -->
+    <div class="row" id="share-image">
+        <div class="col-md-4 col-sm-4 col-xs-6 offsetBottom">
+            <img src="images/projects/image-1.jpg" class="img-responsive img-rounded" alt="Project">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6 offsetBottom">
+            <img src="images/projects/image-2.jpg" class="img-responsive img-rounded" alt="Project">
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 offsetBottom">
+            <div class="offsetTop visible-xs"></div>
+            <img src="images/projects/image-3.jpg" class="img-responsive img-rounded" alt="Project">
+        </div>
+    </div>
+	
+    <!-- Description and details -->
+    <div class="row">
+        
+		<div class="col-md-8 col-sm-8">
+            <div class="offsetBottomS">				
+                <h4>Nunc lobortis rutrum velit, nec rhoncus blandit</h4>
+            </div>
+            <p>
+				 Integer magna iaculis elit quis tincidunt sagittis. Cras maximus gravida ipsum, sagittis vestibulum nisi tincidunt porta. Suspendisse maximus leo quis sapien varius commodo. Nullam varius fringilla aliquet. Aliquam laoreet libero eget viverra elementum. In pulvinar interdum neque id ultrices.
+            </p>
+            <p>
+				Quisque at congue tellus. Curabitur porta sapien eget felis viverra, fringilla interdum mauris lobortis. Curabitur ut fermentum nulla, non tempus nisi. Integer ut semper ante. Quisque eleifend nibh vel tellus feugiat, at gravida mauris fringilla. Curabitur ornare libero ultricies, id facilisis tincidunt.
+            </p>
+        </div>
+		
+        <div class="col-md-4 col-sm-4">
+            
+			<div class="offsetBottomS">
+                <h4>Details</h4>
+            </div>
+			
+            <ul class="fa-ul details">
+                <li>
+                    <i class="fa-li fa fa-angle-right colored"></i>
+                    <strong>Client</strong>
+                    Company Inc.
+                </li>
+                <li>
+                    <i class="fa-li fa fa-angle-right colored"></i>
+                    <strong>Task</strong>
+                    Rebranding, Development
+                </li>
+                <li>
+                    <i class="fa-li fa fa-angle-right colored"></i>
+                    <strong>Website</strong>
+                    <a href="#">company.com</a>
+                </li>
+            </ul>
+			
+            <!-- Share panel -->
+            <div class="share-panel">
+                <span>Share</span>
+                <div class="social">
+                    <a title="Twitter" onclick="shareTo('twitter', '#share-title', '#share-image', '#view-'+$('#portfolio-details').attr('data-current'))"><i class="fa fa-twitter"></i></a>
+                    <a title="Facebook" onclick="shareTo('facebook', '#share-title', '#share-image', '#view-'+$('#portfolio-details').attr('data-current'))"><i class="fa fa-facebook"></i></a>
+                    <a title="Pinterest" onclick="shareTo('pinterest', '#share-title', '#share-image', '#view-'+$('#portfolio-details').attr('data-current'))"><i class="fa fa-pinterest"></i></a>
+                    <a title="LinkedIn" onclick="shareTo('linkedin', '#share-title', '#share-image', '#view-'+$('#portfolio-details').attr('data-current'))"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+			
+        </div>
+		
+    </div>
+	
+</div>
